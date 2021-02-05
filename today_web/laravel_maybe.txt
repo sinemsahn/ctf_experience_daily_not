@@ -1,0 +1,3 @@
+Eğer ctflerde karşına bir laravel gelirse debug açık bırkbilirler 
+yanlış bi url gitmeye çalış belki açıksa kullanııc parola veya flag gelir.
+

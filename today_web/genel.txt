@@ -1,0 +1,9 @@
+Bir web sitesinin kaynak kodunu incelerken sources kısmından css leri ile oynaya bilirsin. siyahsa beyaz gibi
+hackerrank güzel ctf sitesi ama logini free değil gibi sonra bakmalı
+
+cookie: source code-> network-> gidene requeste bak headers falan kısmı açılır
+editthiscookie plugin ile değiştiryor.
+giden cookie headerdan name titleını alırsın oradan kendin admin falan diye set edersin tamamdır
+bunun kodunu yazmak için cookie_set.py dosya yazdım.
+6.videodan devam
+

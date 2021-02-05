@@ -1,0 +1,20 @@
+LDAP nedir?
+Lightweight Directory Access Protocol  denir.
+LDAP TCP/IP üzerinde çalışan index servislerini sorgulama ve değiştirme amacıtla kullanıaln uygulama katmanı protokolü.
+
+
+LDAP injection:
+kullanıcı girdisine dayalı (buna dikkat et ben sayfayı ilk gördüğümde aklıma sql injection denemek gelmişti.) olarak LDAP ifadeleri oluşturan web tabanlı uygulmalardan yararlanmak için kullanılan bir saldırıdır. Bir uygulama kullanıcı girdisini düzgün bir şekilde temizleyemdeğinde, LDAP ifaderini SQL injectiona benzer tekniklerle değiştirmek mümkündür. Yetkisiz sorgular ve ldap ağacı içinde içerik değişikliğine neden olabilir. 
+ LDAP injectionun bir kriterin listelendiği alanlara bazı karakterler sıkıştırarak tüm sonuçların
+gösterilmesi veya istenen kişilerin şifrelerinin alınması gibidir.
+
+Bu komutlar çoğaltılabilir.Hatta bunları yazmaya bile gerek kalmayabilir.Arama modülüne * yazması halinde tüm kullanıcı b
+
+ilgilerini göstermesine yeterli olur.Veya Username kısmına nicki yazıp password kısmına * yazarak istediğimiz
+
+nickin şifresi gelir.Olmadı yukarıdaki kodlar hexlenebilir oda olmadı başına veya sonuna ’ koyarak bazı harfleri büyük yaparak
+
+url encode yaparak bu saldırı metodunu genişletebilirsiniz
+
+Tool kullanbileceğim:
+
