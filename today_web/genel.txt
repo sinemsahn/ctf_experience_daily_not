@@ -6,4 +6,38 @@ editthiscookie plugin ile değiştiryor.
 giden cookie headerdan name titleını alırsın oradan kendin admin falan diye set edersin tamamdır
 bunun kodunu yazmak için cookie_set.py dosya yazdım.
 6.videodan devam
+re.findall ->
+print re.findall(r'action="(.*?)"',r.text)
+sıradaki url [u'/np/değer/'] olarak gelir.
+regular expression program içinde özel textleri ayırmak için kullanılır.
+bunlara göre parse adiyor o işaret gelene kadar.
+re.split ile boşluklarına ayırabilirsin
+
+grep -oE "tjctf{.*}" anything içi
+curl -X POST "site" diyip isteklerini ona göre atabilirsin.
+infinite javascript scrolling: windows terminelden yapmış
+local file inclusion:=../../:../ ile olan
+
+user-agent lookup var browser ne olduğuna bakabiliyorsun
+
+gitdumper gitler için kullana
+source ile kaynak kodlarını çekersin
+git log ile verlerine bakarsın
+eskiden ne yaptığına dair
+
+search bir kutuda hex denedi  sql denedi ve *  da bir şeyler oldu
+. da hepsini verdi
+reguler expression .* diyince hepsi ve flag geldi
+
+nikto web taramalarda kulanılabilir
+github.com/uscga/tools kullanbileceğin toollar ile ilgili bilgi vermiş
+
+manual http requests->
+
+#!/bin/bash
+nc .... diiyip bu dosyayaı normal çalıştırırsan sana aynı terminalden yazdıkların gibi çıktı veriri
+
+server-side -injection flask:http://vulnerable-website.com/?username=${7*7}
+
+bzr git gibi adres verip gfiles dediğinde indez.phpyi çekebilirisn.
 
